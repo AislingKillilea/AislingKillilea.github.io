@@ -1,2 +1,2 @@
-# aislingkillilea.github.io
+# AislingKillilea.github.io
 Web Design and Development | Aisling Killilea 
