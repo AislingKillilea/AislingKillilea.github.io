@@ -1,0 +1,14 @@
+/* Add your custom CSS here */
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active {
+  background-color: var(--pink-600);
+}
+nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle {
+  background-color: var(--pink-600);
+}
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active {
+  background-color: var(--pink-600);
+}
+
+
