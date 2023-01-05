@@ -1,14 +1,129 @@
-/* Add your custom CSS here */
-nav.theme-dark.menu-sticky.menu-on-scroll,
-nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active {
-  background-color: var(--pink-600);
+header.theme-dark h1 span.highlight {
+  color: var(--gray-200);
 }
-nav.theme-dark.menu-sticky.menu-on-scroll .nav-toggle {
-  background-color: var(--pink-600);
-}
-nav.theme-dark.menu-sticky.menu-on-scroll,
-nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active {
-  background-color: var(--pink-600);
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited {
+  color: var(--sky-300);
 }
 
+header.theme-dark .container-btn a.btn:nth-child(1):link,
+header.theme-dark .container-btn a.btn:nth-child(1):visited {
+  border-color: var(--white-000);
+}
 
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active {
+  background-color: var(--trans-000);
+}
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active {
+  background-color: var(--sky-300);
+}
+@media (max-width: 767px) {
+  nav.theme-dark ul.links-wrapper.active a#btn-cta:link,
+  nav.theme-dark ul.links-wrapper.active a#btn-cta:visited {
+    color: var(--sky-300);
+  }
+}
+header.theme-dark h1 {
+  color: var(--sky-300);
+}
+
+.section-selector-1 {
+  background-color: var(--sky-300);
+}
+.section-selector-1 div[class^="flex-cols-"] div[class^="col-"] p {
+  color: var(--gray-800);
+}
+.section-selector-1 div[class^="flex-cols-"] div[class^="col-"] li {
+  color: var(--gray-800);
+}
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited {
+  background-color: var(--indigo-800);
+}
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited {
+  color: var(--white-000);
+}
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active {
+  color: var(--sky-300);
+}
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active {
+  background-color: var(--indigo-800);
+}
+
+header.theme-light {
+  background-color: var(--sky-300);
+}
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited {
+  color: var(--white-000);
+}
+
+.section-selector-1 a.btn:link,
+.section-selector-1 a.btn:visited {
+  background-color: var(--indigo-800);
+}
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active {
+  background-color: var(--indigo-800);
+}
+
+.section-selector-1 a.btn:focus,
+.section-selector-1 a.btn:hover,
+.section-selector-1 a.btn:active {
+  color: var(--sky-300);
+}
+
+.section-selector-1 {
+  background-color: var(--sky-300);
+}
+.section-selector-1 div[class^="flex-cols-"] div[class^="col-"] {
+  background-color: var(--white-000);
+}
+#contact-form {
+  background-color: var(--ontrend-700);
+}
+.container-contact-form {
+  background-color: var(--ontrend-400);
+}
+#contact-form h2 {
+  color: var(--gray-100);
+}
+#contact-form p {
+  color: var(--gray-200);
+}
+#contact-form p a:link {
+  color: var(--blue-300);
+}
+#contact-form p a:visited {
+  color: var(--blue-300);
+}
+#contact-form p a:focus {
+  color: var(--yellow-300);
+}
+#contact-form p a:hover {
+  color: var(--yellow-300);
+}
+#contact-form p:active {
+  color: var(--yellow-300);
+}
+#contact-form p a:focus {
+  background-color: var(--yellow-300);
+}
+#contact-form p a:hover {
+  background-color: var(--yellow-300);
+}
+#contact-form p a:active {
+  background-color: var(--yellow-300);
+}
